@@ -1,0 +1,15 @@
+if SHIELD_SPUTNIK_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "sputnik"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+        default y
+
+endif
+
+if SHIELD_SPUTNIK_LEFT || SHIELD_CORNE_RIGHT
+
+config ZMK_SPLIT
+    deault y
+endif
