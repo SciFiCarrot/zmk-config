@@ -17,3 +17,8 @@
         , <&gpio0 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
+
+
+&default_transform {
+    col-offset = <6>; // Change '6' to the exact number of columns on your left half
+};
