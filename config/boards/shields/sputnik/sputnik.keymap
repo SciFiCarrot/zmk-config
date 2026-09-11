@@ -51,7 +51,7 @@
                         bindings = <
    &trans  &trans &trans &kp PLUS &kp MINUS &kp BSLH   &kp DLLR &kp LBRC  &kp RBRC &kp LT &kp GT &trans
    &kp HASH &kp CARET  &kp EQUAL &kp UNDER   &kp DLLR   &kp STAR      &kp FSLH &kp LPAR &kp RPAR  &kp COLON &kp SEMI &trans
-   &to 0 &trans &trans &kp PIPE &kp GRAVE &kp TILDE &kp PRCNT &kp LBRK &kp RBRK &kp DOT &kp COMMA &trans
+   &to 0 &trans &trans &kp PIPE &kp GRAVE &kp TILDE &kp PRCNT &kp LBKT &kp RBKT &kp DOT &kp COMMA &trans
                              &trans &trans   &trans   &trans   &trans    &trans
                         >;
                 };
